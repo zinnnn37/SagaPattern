@@ -1,13 +1,13 @@
-package com.study.saga;
+package com.study.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SagaApplication {
+public class OrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SagaApplication.class, args);
+		SpringApplication.run(OrderApplication.class, args);
 	}
 
 }
