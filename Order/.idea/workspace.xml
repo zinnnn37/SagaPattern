@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe54f23c-b236-4de4-ab02-3d967bc56e0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Orchestration/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/Orchestration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Orchestration/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fe54f23c-b236-4de4-ab02-3d967bc56e0b" name="Changes" comment="[feat] Order Entity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Payment/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/Payment.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Payment/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/order/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/order/domain/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +18,47 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="34b4eS1wkMA7Vd8PzEckYpw7uG9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build Order.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.OrderApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -72,9 +76,9 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="SagaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="saga.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.saga.SagaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +99,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761469032924</updated>
-      <workItem from="1761469035462" duration="88000" />
+      <workItem from="1761469035462" duration="7739000" />
     </task>
+    <task id="LOCAL-00001" summary="[feat] Status Enum">
+      <option name="closed" value="true" />
+      <created>1761476867231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761476867231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[feat] Order Entity">
+      <option name="closed" value="true" />
+      <created>1761477086212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761477086212</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat] Status Enum" />
+    <MESSAGE value="[feat] Order Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] Order Entity" />
   </component>
 </project>
