@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="585974a6-0b23-4b3f-8297-92159e898652" name="Changes" comment="" />
+    <list default="true" id="fe54f23c-b236-4de4-ab02-3d967bc56e0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Orchestration/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/Orchestration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Orchestration/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Payment/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/Payment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="34arxGtSxrSpxOQxwfxuXrWdoln" />
+  <component name="ProjectId" id="34b4eS1wkMA7Vd8PzEckYpw7uG9" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -18,10 +53,33 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="saga.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="saga.main" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SagaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="saga.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.saga.SagaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -32,12 +90,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="585974a6-0b23-4b3f-8297-92159e898652" name="Changes" comment="" />
-      <created>1761462769556</created>
+      <changelist id="fe54f23c-b236-4de4-ab02-3d967bc56e0b" name="Changes" comment="" />
+      <created>1761469032924</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761462769556</updated>
+      <updated>1761469032924</updated>
+      <workItem from="1761469035462" duration="88000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
