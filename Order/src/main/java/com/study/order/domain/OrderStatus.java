@@ -1,6 +1,6 @@
 package com.study.order.domain;
 
-public enum Status {
+public enum OrderStatus {
 	PENDING,
 	COMPLETED,
 	CANCELLED
