@@ -1,4 +1,4 @@
-package com.study.order.domain;
+package com.study.payment.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -7,15 +7,18 @@ import lombok.*;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "orders")
+@Table(name = "payments")
 @ToString
 @Builder
-public class Order {
+public class Payment {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private int id;
+
+	@Column(nullable = false)
+	private int orderId;
 
 	@Column(nullable = false)
 	private int userId;
@@ -25,17 +28,5 @@ public class Order {
 
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
-	private OrderStatus status;
-
-	private int paymentId;
-
-	public void complete(int paymentId) {
-		this.paymentId = paymentId;
-		this.status = OrderStatus.COMPLETED;
-	}
-
-	public void cancel() {
-		this.status = OrderStatus.CANCELLED;
-	}
-
+	private PaymentStatus status;
 }
