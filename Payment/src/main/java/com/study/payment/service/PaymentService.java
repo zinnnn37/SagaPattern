@@ -26,6 +26,11 @@ public class PaymentService {
 	@Value("${payment.test.failure-rate:0}")
 	private double failureRate;
 
+	@Value("${payment.test.retry-count:0}")
+	private int retryCount;
+
+	private int currentRetry = 0;
+
 	@Transactional
 	public PaymentResponse processPayment(PaymentRequest request) {
 		log.info("결제 요청: orderId={}, userId={}, amount={}",
@@ -59,8 +64,25 @@ public class PaymentService {
 			throw new PaymentDeclinedException("카드 한도 초과");
 		}
 
-		if ("server-error".equals(errorType) && Math.random() < failureRate) {
-			throw new RuntimeException("서버 에러 (테스트)");
+		if ("server-error".equals(errorType)) {
+			currentRetry++;
+			log.warn("서버 에러 발생 ({}번째 시도)", currentRetry);
+
+			// N번째 시도에서 성공
+			if (retryCount > 0 && currentRetry >= retryCount) {
+				log.info("{}번 시도 후 성공", currentRetry);
+				currentRetry = 0;
+				return;  // 정상 처리
+			}
+
+			// 에러 발생
+			throw new RuntimeException("서버 내부 오류 (테스트)");
+		}
+
+		// Circuit Breaker 테스트
+		if ("circuit-breaker".equals(errorType) && Math.random() < failureRate) {
+			log.error("Circuit Breaker 테스트 - 에러 발생");
+			throw new RuntimeException("서버 내부 오류 (Circuit Breaker 테스트)");
 		}
 	}
 }

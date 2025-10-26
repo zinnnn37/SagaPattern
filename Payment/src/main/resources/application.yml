@@ -27,6 +27,6 @@ spring:
 # 에러 시뮬레이션 설정
 payment:
   test:
-    error-type: server-error       # none, decline, server-error
+    error-type: none       # none, decline, server-error, circuit-breaker
     failure-rate: 1.0         # 0.0 ~ 1.0
     retry-count: 0
